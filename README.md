@@ -1,6 +1,6 @@
 # npmtest-clarify
 
-#### test coverage for  [clarify (v2.0.0)](https://github.com/AndreasMadsen/clarify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clarify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clarify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clarify.svg)](https://travis-ci.org/npmtest/node-npmtest-clarify)
+#### basic test coverage for  [clarify (v2.0.0)](https://github.com/AndreasMadsen/clarify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-clarify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-clarify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-clarify.svg)](https://travis-ci.org/npmtest/node-npmtest-clarify)
 
 #### Remove nodecore related stack trace noise
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-clarify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-clarify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-clarify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-clarify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clarify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clarify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-clarify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-clarify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-clarify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-clarify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-clarify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-clarify/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "tap ./test.js && eslint ."
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
